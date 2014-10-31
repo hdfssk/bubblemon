@@ -37,7 +37,6 @@
 double exp2(double x);
 
 #include "bubblemon.h"
-#include "ui.h"
 #include "meter.h"
 #include "mail.h"
 

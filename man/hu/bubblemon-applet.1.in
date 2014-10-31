@@ -1,10 +1,10 @@
-.TH "Bubblemon" "1" "@VERSION@" "Johan Walles" "GNOME Applets"
+.TH "@PACKAGE@" "1" "@VERSION@" "Johan Walles" "@BUBBLEMON_PANEL@ kisalkalmazás"
 .SH "NÉV"
-bubblemon-gnome2 \- A rendszer terheltségét folyadék formájában jelzi ki
+@BUBBLEMON_APPLET_NAME@ \- A rendszer terheltségét folyadék formájában jelzi ki
 .SH "ÁTTEKINTÉS"
-bubblemon-gnome2
+@BUBBLEMON_APPLET_NAME@
 .SH "LEÍRÁS"
-Ez a GNOME applet a rendszer terheltségét buborékoló folyadék formájában
+Ez a kisalkalmazás a rendszer terheltségét buborékoló folyadék formájában
 jelzi ki. A folyadékszint a rendszer által használt memória mennyiségének
 felel meg, magas szint azt jelenti, hogy sok memória van használtaban. A
 buborékok mennyisége a rendszer terheltségét jelzi, sok buborék nagy
@@ -13,9 +13,9 @@ méretét jelzi. Amíg a folyadék vízszinû, a swap nincs használatban, de ah
 egyre több swap kerül lefoglalásra, úgy változik a folyadék pirosabbá.
 .LP
 Ha pontos értékeket akarsz, van egy felbukkanó segítség, ami elõjön, ha az
-egérmutatót egy másodpercig az applet felett hagyod.
+egérmutatót egy másodpercig a kisalkalmazás felett hagyod.
 .SH "SZERZÕK"
 Johan Walles <johan.walles@gmail.com>
 .SH "URL"
 A Bubblemon honlapját megtalálod itt:
-"http://www.nongnu.org/bubblemon/".
+"@PACKAGE_URL@".

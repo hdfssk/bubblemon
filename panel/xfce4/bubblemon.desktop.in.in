@@ -1,0 +1,7 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Encoding=UTF-8
+_Name=Bubbling Load Monitor
+_Comment=Monitor CPU, memory and IO load
+Icon=bubblemon
+X-XFCE-Exec=@BUBBLEMON_APPLET_DIR@/@BUBBLEMON_APPLET_NAME@

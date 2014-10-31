@@ -29,6 +29,7 @@
 #ifndef _
 // GNU Gettext not available
 #define _(X) X
+#define N_(X) X
 #endif
 
 #include "meter.h"

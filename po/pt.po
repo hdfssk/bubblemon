@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bubblemon 2.0.15\n"
-"Report-Msgid-Bugs-To: https://savannah.nongnu.org/bugs/?group=bubblemon\n"
-"POT-Creation-Date: 2011-06-25 10:08+0200\n"
+"Report-Msgid-Bugs-To: https://github.com/walles/bubblemon/issues\n"
+"POT-Creation-Date: 2014-10-12 21:54-0400\n"
 "PO-Revision-Date: 2010-03-14 22:24+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@netcabo.pt>\n"
 "Language-Team: Portuguese <traduz@debianpt.org>\n"
@@ -18,44 +18,58 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../gnome/GNOME_BubblemonApplet.server.in.in.h:1
-msgid "Bubbling Load Monitor"
-msgstr "Monitor de Carga Borbulhento"
-
-#: ../gnome/GNOME_BubblemonApplet.server.in.in.h:2
-msgid "Monitor CPU, memory and IO load"
-msgstr "Monitor de carga da CPU, memória e IO"
-
-#: ../gnome/GNOME_BubblemonApplet.xml.h:1
+#: ../panel/bonobo/GNOME_BubblemonApplet.xml.h:1
 msgid "_About..."
 msgstr "_Acerca de..."
 
-#: ../src/bubblemon.c:120
+#: ../panel/dbus/org.@APPLET_SCHEMA_ORG@.panel.BubblemonApplet.@APPLET_FILETYPE@.in.h:1
+#, fuzzy
+msgid "Bubbling Load Monitor Applet Factory"
+msgstr "Fábrica da Applet Monitor de Carga Borbulhento"
+
+#: ../panel/dbus/org.@APPLET_SCHEMA_ORG@.panel.BubblemonApplet.@APPLET_FILETYPE@.in.h:2
+msgid "Bubbling Load Monitor"
+msgstr "Monitor de Carga Borbulhento"
+
+#: ../panel/dbus/org.@APPLET_SCHEMA_ORG@.panel.BubblemonApplet.@APPLET_FILETYPE@.in.h:3
+msgid "Monitor CPU, memory and IO load"
+msgstr "Monitor de carga da CPU, memória e IO"
+
+#: ../panel/mate/ui.c:64
+msgid "Displays system load as a bubbling liquid."
+msgstr "Mostra a carga do sistema num líquido borbulhante."
+
+#: ../panel/mate/ui.c:255
+#, fuzzy
+msgid "_About"
+msgstr "_Acerca de..."
+
+#: ../src/bubblemon.c:122
 msgid "TiB"
 msgstr "TiB"
 
-#: ../src/bubblemon.c:125
+#: ../src/bubblemon.c:127
 msgid "GiB"
 msgstr "GiB"
 
-#: ../src/bubblemon.c:130
+#: ../src/bubblemon.c:132
 msgid "MiB"
 msgstr "MiB"
 
-#: ../src/bubblemon.c:135
+#: ../src/bubblemon.c:137
 msgid "kiB"
 msgstr "kiB"
 
-#: ../src/bubblemon.c:140
+#: ../src/bubblemon.c:142
 msgid "bytes"
 msgstr "bytes"
 
-#: ../src/bubblemon.c:187
+#: ../src/bubblemon.c:189
 #, c-format
 msgid "Memory used: %s"
 msgstr "Memória utilizada: %s"
 
-#: ../src/bubblemon.c:195
+#: ../src/bubblemon.c:197
 #, c-format
 msgid ""
 "\n"
@@ -64,7 +78,7 @@ msgstr ""
 "\n"
 "Swap utilizada: %s"
 
-#: ../src/bubblemon.c:201
+#: ../src/bubblemon.c:203
 #, c-format
 msgid ""
 "\n"
@@ -73,7 +87,7 @@ msgstr ""
 "\n"
 "Espera de IO: %d%%"
 
-#: ../src/bubblemon.c:208
+#: ../src/bubblemon.c:210
 #, c-format
 msgid ""
 "\n"
@@ -82,7 +96,7 @@ msgstr ""
 "\n"
 "Carga do CPU: %d%%"
 
-#: ../src/bubblemon.c:219
+#: ../src/bubblemon.c:221
 #, c-format
 msgid ""
 "\n"
@@ -90,7 +104,3 @@ msgid ""
 msgstr ""
 "\n"
 "Carga do CPU #%d: %d%%"
-
-#: ../src/gnome2-ui.c:63
-msgid "Displays system load as a bubbling liquid."
-msgstr "Mostra a carga do sistema num líquido borbulhante."

@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.@APPLET_SCHEMA_ORG@.panel.applet.BubblemonAppletFactory
+Exec=@BUBBLEMON_APPLET_DIR@/@BUBBLEMON_APPLET_NAME@

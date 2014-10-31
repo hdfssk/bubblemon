@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bubblemon 1.0.5\n"
-"Report-Msgid-Bugs-To: https://savannah.nongnu.org/bugs/?group=bubblemon\n"
-"POT-Creation-Date: 2011-06-25 10:08+0200\n"
+"Report-Msgid-Bugs-To: https://github.com/walles/bubblemon/issues\n"
+"POT-Creation-Date: 2014-10-12 21:54-0400\n"
 "PO-Revision-Date: 2009-03-01 09:59+0100\n"
 "Last-Translator: Man-Yong Lee\n"
 "Language-Team: Korean\n"
@@ -15,59 +15,77 @@ msgstr ""
 "Content-Type: text/plain; charset=EUC-KR\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../gnome/GNOME_BubblemonApplet.server.in.in.h:1
-msgid "Bubbling Load Monitor"
-msgstr "물거품 부하 모니터"
-
-#: ../gnome/GNOME_BubblemonApplet.server.in.in.h:2
-msgid "Monitor CPU, memory and IO load"
-msgstr ""
-
-#: ../gnome/GNOME_BubblemonApplet.xml.h:1
+#: ../panel/bonobo/GNOME_BubblemonApplet.xml.h:1
 #, fuzzy
 msgid "_About..."
 msgstr "프로그램 정보"
 
-#: ../src/bubblemon.c:120
+#: ../panel/dbus/org.@APPLET_SCHEMA_ORG@.panel.BubblemonApplet.@APPLET_FILETYPE@.in.h:1
+#, fuzzy
+msgid "Bubbling Load Monitor Applet Factory"
+msgstr "물거품 부하 모니터"
+
+#: ../panel/dbus/org.@APPLET_SCHEMA_ORG@.panel.BubblemonApplet.@APPLET_FILETYPE@.in.h:2
+msgid "Bubbling Load Monitor"
+msgstr "물거품 부하 모니터"
+
+#: ../panel/dbus/org.@APPLET_SCHEMA_ORG@.panel.BubblemonApplet.@APPLET_FILETYPE@.in.h:3
+msgid "Monitor CPU, memory and IO load"
+msgstr "CPU, 램, 및 IO 사용량 로 보여줍니다."
+
+#: ../panel/mate/ui.c:64
+msgid "Displays system load as a bubbling liquid."
+msgstr "버블 링 액체로 표시 시스템 부하"
+
+#: ../panel/mate/ui.c:255
+#, fuzzy
+msgid "_About"
+msgstr "프로그램 정보"
+
+#: ../src/bubblemon.c:122
 msgid "TiB"
 msgstr ""
 
-#: ../src/bubblemon.c:125
+#: ../src/bubblemon.c:127
 msgid "GiB"
 msgstr ""
 
-#: ../src/bubblemon.c:130
+#: ../src/bubblemon.c:132
 msgid "MiB"
 msgstr ""
 
-#: ../src/bubblemon.c:135
+#: ../src/bubblemon.c:137
 msgid "kiB"
 msgstr ""
 
-#: ../src/bubblemon.c:140
+#: ../src/bubblemon.c:142
 msgid "bytes"
-msgstr ""
+msgstr "바이트"
 
-#: ../src/bubblemon.c:187
+#: ../src/bubblemon.c:189
 #, c-format
 msgid "Memory used: %s"
-msgstr ""
+msgstr "메모리 사용량: %s"
 
-#: ../src/bubblemon.c:195
+#: ../src/bubblemon.c:197
 #, c-format
 msgid ""
 "\n"
 "Swap used: %s"
 msgstr ""
+"\n"
+"스왑 사용량: %s"
 
-#: ../src/bubblemon.c:201
+#: ../src/bubblemon.c:203
 #, c-format
 msgid ""
 "\n"
 "IO wait: %d%%"
 msgstr ""
+"\n"
+"IO 기다리다: %d%%"
 
-#: ../src/bubblemon.c:208
+#: ../src/bubblemon.c:210
 #, c-format
 msgid ""
 "\n"
@@ -76,7 +94,7 @@ msgstr ""
 "\n"
 "CPU 부하: %d%%"
 
-#: ../src/bubblemon.c:219
+#: ../src/bubblemon.c:221
 #, c-format
 msgid ""
 "\n"
@@ -84,7 +102,3 @@ msgid ""
 msgstr ""
 "\n"
 "CPU #%d 부하: %d%%"
-
-#: ../src/gnome2-ui.c:63
-msgid "Displays system load as a bubbling liquid."
-msgstr ""

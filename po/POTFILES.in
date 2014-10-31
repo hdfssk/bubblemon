@@ -1,5 +1,8 @@
 # Files containing translatable strings
-gnome/GNOME_BubblemonApplet.server.in.in
-gnome/GNOME_BubblemonApplet.xml
+[encoding: UTF-8]
+[type: gettext/ini]panel/dbus/org.@APPLET_SCHEMA_ORG@.panel.BubblemonApplet.@APPLET_FILETYPE@.in.in
+panel/gnome3/ui.c
+panel/mate/ui.c
+[type: gettext/desktop]panel/xfce4/bubblemon.desktop.in.in
+panel/xfce4/ui.c
 src/bubblemon.c
-src/gnome2-ui.c

@@ -1,0 +1,10 @@
+[Applet Factory]
+Id=BubblemonAppletFactory
+Location=@BUBBLEMON_APPLET_DIR@/@BUBBLEMON_APPLET_NAME@
+_Name=Bubbling Load Monitor Applet Factory
+_Description=Bubbling Load Monitor Applet Factory
+
+[BubblemonApplet]
+_Name=Bubbling Load Monitor
+_Description=Monitor CPU, memory and IO load
+Icon=bubblemon

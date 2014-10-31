@@ -6,15 +6,12 @@ cd $(dirname $0)
 echo "Generating configuration files for bubblemon..."
 echo
 
-set -x
+autopoint --force && AUTOPOINT='intltoolize --automake --copy' autoreconf -fiv -Wall || exit $?
+# gettextize --copy --force && intltoolize --automake --copy --force && autoreconf -fiv -Wall || exit $?
 
-aclocal-1.10 -I m4 &&\
-autoheader &&\
-automake-1.10 --add-missing &&\
-autoconf &&\
-intltoolize --force || exit $?
-
-set +x
+# Fix `error: po/Makefile.in.in was not created by intltoolize' configure error
+# NB. does not work for out-of-tree builds
+[ ! -f po/Makefile.in ] && echo "# INTLTOOL_MAKEFILE" >po/Makefile.in
 
 echo
 echo "Done generating configuration files for bubblemon, now do \"./configure && make && make install\""
