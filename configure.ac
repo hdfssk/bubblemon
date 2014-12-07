@@ -236,7 +236,6 @@ man/bubblemon-applet.1
 man/hu/bubblemon-applet.1
 man/sv/bubblemon-applet.1
 m4/Makefile
-packaging/bubblemon-applet.spec
 po/Makefile.in
 ])
 AC_OUTPUT
